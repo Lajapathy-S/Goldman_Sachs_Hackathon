@@ -14,6 +14,7 @@ import streamlit as st
 
 from cortex_sim import nasdaq_level2_mock
 from legend_sim import (
+    INDICATOR_CATALOG,
     bollinger,
     generate_ohlcv,
     macd_bundle,
